@@ -80,7 +80,7 @@
         {#if slide.type === "video"}
         <div
           id={i}
-          class={`slide slide-video ${sliderCursor}`}
+          class={`slide slide-video ${sliderCursor} ${slide.addPadding ? "slide-video-extra-padding": ""}`}
           style={`background-position: ${i}00vw center;`}
         >
           <!-- svelte-ignore a11y-media-has-caption -->
@@ -98,7 +98,7 @@
                 </div>
             </div>
             {:else}
-            <div class="slide text_slide" style={`color: ${slide.color}; font-family: ${slide.font || 'Moret Regular'}; font-size: ${slide.fontSize}` }>
+            <div class="slide text_slide" style={`background-color: ${slide.backgroundColor}; color:${slide.color}; font-family: ${slide.font || 'Moret Regular'}; font-size: ${slide.fontSize}` }>
                 <div class="text_slide_container">
                   <h5 class="text_title">
                     {slide.title}
@@ -121,6 +121,19 @@
     video::-webkit-media-controls-fullscreen-button, video::-webkit-media-controls-play-button, video::-webkit-media-controls-pausebutton {
     display: none;
   }
+
+  .slide-video-extra-padding video {
+    width: 90vw;
+    height: 90vh;
+    margin-left: 5vw;
+    margin-right: 5vw;
+    object-fit: none;
+    margin-top: 5vh;
+    margin-bottom: 5vh;
+    }
+    .slide-video-extra-padding {
+      background-color: #C374F6;
+    }
 
   .slide-column {
     flex-shrink: 1;
@@ -159,7 +172,7 @@
     align-content: stretch;
   }
   .text_slide_container {
-    padding-left: 26px;
+    padding-left: 55px;
     padding-top: 80px;
     width: 60%;
   }
