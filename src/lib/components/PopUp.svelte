@@ -253,15 +253,15 @@
     cursor: pointer;
   }
   .bonjour-dialog {
-  width: 485px;
-  height: 500px;
-  position: absolute;
-  z-index: 3;
-  background-color: #F86C01;
-  border: solid 1px #F86C01;
-  top: 30vh;
-  right:0;
-  padding: 25px;
+    width: 485px;
+    height: 600px;
+    position: absolute;
+    z-index: 3;
+    background-color: #F86C01;
+    border: solid 1px #F86C01;
+    top: 20vh;
+    right:0;
+    padding: 25px;
 }
   .bonjour-dialog-container {
     position:relative;
@@ -289,7 +289,8 @@
   .bonjour-button.close {
     background-color: #1F0EDF;
     color:  #F86C01;
-    top: 125px;
+    top: 200px;
+    right: 40px;
   }
     @media screen and (max-width: 600px) {
     .modal-section {

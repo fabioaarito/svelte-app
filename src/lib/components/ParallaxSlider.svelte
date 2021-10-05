@@ -123,13 +123,13 @@
   }
 
   .slide-video-extra-padding video {
-    width: 90vw;
-    height: 90vh;
-    margin-left: 5vw;
-    margin-right: 5vw;
+    width: 70vw;
+    height: 70vh;
+    margin-left: 15vw;
+    margin-right: 15vw;
     object-fit: none;
-    margin-top: 5vh;
-    margin-bottom: 5vh;
+    margin-top: 15vh;
+    margin-bottom: 15vh;
     }
     .slide-video-extra-padding {
       background-color: #C374F6;

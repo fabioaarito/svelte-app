@@ -60,10 +60,10 @@ export const en = {
     sayHi: {
       title: 'Bonjour, Hi',
       p1: {
-        text1: 'We love hearing from you',
-        text2: ' Get in touch in with us',
-        text3: 'via email.',
-        text4: 'Or snail mail',
+        text1: 'We work with brands and businesses seeking strategy informed by cultural relevance and design that safeguards value and longevity.',
+        text2: 'We advocate for progressive, sustainable lifestyles and we believe in accountability. We also believe in unicorns, but that’s beside the point',
+        text3: 'Contact us if any of that sounds right to you ✿ you can get in touch in via email. Or snail mail ✎ or slide into our DMs ツ if that’s your thing',
+        text4: 'Super Bonjour is founded by Reanna Evoy (PST) & Vanda Daftari (EST). ',
         text5: 'Or slide into',
         text6: 'Our DMS.',
         text7: "If that's your thing",
