@@ -196,7 +196,7 @@
   
   .dialog-center {
     position: absolute;
-    top: 100%;
+    top: 110%;
     left: 55%;
     transform: translate(-50%, -50%);
     width: 350px;
@@ -239,20 +239,21 @@
   .bonjour-button {
     background-color:#C84501;
     writing-mode: vertical-rl;
-    text-orientation: upright;
+    text-orientation: sideways;
     position: absolute;
-    right: 25px;
+    right: 55px;
     top: 50vh;
     color:#1900FF;
     padding: 10px;
     border-radius: 15px;
     font-size: 0.8rem;
     z-index: 2;
-    font-weight: 600;
+    font-weight: 400;
+    font-family: "Moret Regular";
     cursor: pointer;
   }
   .bonjour-dialog {
-  width: 552px;
+  width: 485px;
   height: 500px;
   position: absolute;
   z-index: 3;
@@ -269,6 +270,7 @@
   }
   .bonjour-dialog-container h1 {
     font-weight: 100;
+    font-family: "Opposit-Medium";
     color: #fff;
   }
   .bonjour-dialog-container h4 {
@@ -277,6 +279,7 @@
   .bonjour-dialog-container .p1 {
     font-size: 1.6rem;
     font-weight: 300;
+    font-family: "Moret Regular";
     width: 88%;
   }
   .bonjour-dialog-container .footer {
