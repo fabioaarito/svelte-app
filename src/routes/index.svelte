@@ -55,15 +55,18 @@
         {
           src: "The body sats what words cannot- vulnerable, free and quitely powerful.  Our creative direction counterbalances traditional beauty ideals and removes the male gaze to introduce a woman's body in a new and real context. HIRRS is designed for a woman's movement.",
           type: "text",
-          title: "Heading file"
+          title: "Heading file",
+          fontSize: "54px",
+          color: "#CBD0BA"
         },
         {
-          src: "The body sats what words cannot- vulnerable, free and quitely powerful.  Our creative direction counterbalances traditional beauty ideals and removes the male gaze to introduce a woman's body in a new and real context. HIRRS is designed for a woman's movement.",
+          src: "Brand Audit & Campaign Strategy — Review of all the photo ocntent on digital channels to establish a new strategy 2020 Campaign Shoot —  Creative Direction Pre-production & On Set Direction Ecomm Direction",
           type: "text",
           title: "Heading file",
           font: "roc-grotesk, sans-serif",
           fontSize: "36px",
-          backgroundColor: "#E2EE75"
+          color: "#E2EE75",
+          backgroundColor: "#290B15"
         }
       ]}
     />
@@ -174,15 +177,18 @@
         {
           src: "The body sats what words cannot- vulnerable, free and quitely powerful.  Our creative direction counterbalances traditional beauty ideals and removes the male gaze to introduce a woman's body in a new and real context. HIRRS is designed for a woman's movement.",
           type: "text",
-          title: "Heading file"
+          title: "Heading file",
+          color: "#4E151D",
+          backgroundColor: "#C3862C"
         },
         {
-          src: "The body sats what words cannot- vulnerable, free and quitely powerful.  Our creative direction counterbalances traditional beauty ideals and removes the male gaze to introduce a woman's body in a new and real context. HIRRS is designed for a woman's movement.",
+          src: "Creative Direction, Brand Strategy & Identity, Print & Digital Design, Voice & Messaging, by Super Bonjour Art Direction & Off-figure Styling by Super Bonjour Voice & Copy by Sacha Jackson Photography by Jennifer Latour Styling by Leila Bani HMU by Karin Shoji.",
           type: "text",
           title: "Heading file",
           font: "roc-grotesk, sans-serif",
           fontSize: "36px",
-          backgroundColor: "#E2EE75"
+          color: "#E2EE75",
+          backgroundColor: "#C3862C"
         }
         ]}
     />
@@ -332,7 +338,6 @@
           src: "The body sats what words cannot- vulnerable, free and quitely powerful.  Our creative direction counterbalances traditional beauty ideals and removes the male gaze to introduce a woman's body in a new and real context. HIRRS is designed for a woman's movement.",
           type: "text",
           title: "Heading file",
-          backgroundColor: "#3851BA",
           color: "#E2EE75"
         }
       ]}   

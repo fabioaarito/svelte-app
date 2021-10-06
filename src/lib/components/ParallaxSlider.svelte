@@ -173,8 +173,8 @@
   }
   .text_slide_container {
     padding-left: 55px;
-    padding-top: 80px;
-    width: 60%;
+    padding-top: 45px;
+    width: 80%;
   }
   
   .text_title {
