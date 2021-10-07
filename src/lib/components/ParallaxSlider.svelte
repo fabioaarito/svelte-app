@@ -74,7 +74,7 @@
         <div
           id={i}
           class={`slide ${sliderCursor}`}
-          style={`background-position: ${i}00vw center; background-image: url(${slide.src})`}
+          style={`background-image: url(${slide.src})`}
         />
       {:else}
         {#if slide.type === "video"}
@@ -179,6 +179,7 @@
   
   .text_title {
     padding-top: 50px;
+    margin-bottom: 2px;
     color: #E2EE75;
     font-size: 18px;
     font-weight: 100;
@@ -208,6 +209,8 @@
     height: 100vh;
     width: 100vw;
     background-size: cover;
+    /* background-position: center; */
+    background-repeat: no-repeat;
     transition: all 200ms ease-out 0s;
   }
 

@@ -44,7 +44,8 @@
         <p class="p1">
           {$_('dialog.sayHi.p1.text1')} 
           {$_('dialog.sayHi.p1.text2')} 
-          {$_('dialog.sayHi.p1.text3')} 
+          {$_('dialog.sayHi.p1.text3')}
+          <br> 
           {$_('dialog.sayHi.p1.text4')} 
           {$_('dialog.sayHi.p1.text5')} 
           {$_('dialog.sayHi.p1.text6')} 
