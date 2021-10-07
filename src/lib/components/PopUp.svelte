@@ -277,8 +277,8 @@
     margin-bottom:0;
   }
   .bonjour-dialog-container .p1 {
-    font-size: 1.6rem;
-    font-weight: 300;
+    font-size: 0.8rem;
+    font-weight: 400;
     font-family: "Moret Regular";
     width: 88%;
   }
