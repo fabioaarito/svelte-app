@@ -258,9 +258,9 @@
     /* background-color: rgb(255 255 255 / 80%); */
     min-width: 20vw;
     padding: 25px;
-    padding-left: 55px;
-    padding-bottom: 20px;
-    margin-bottom: 30px;
+    padding-left: 25px;
+    padding-bottom: 10px;
+    margin-bottom: 10px;
     position: absolute;
     z-index: 1;
     left: 0px;
@@ -276,8 +276,8 @@
 
   .image-logo {
     position: fixed;
-    left: 55px;
-    top: 35px;
+    left: 25px;
+    top: 30px;
     width: 177px;
     height: 4.75rem;
     z-index: 1;
@@ -309,7 +309,7 @@
   }
  
   .image-logo {
-    width: 125px;
+    width: 117px;
     }
   }
 
@@ -322,6 +322,7 @@
     .paginator{
       font-size: 1.0rem;
       right: 5vw;
+      margin-right: 35px;
     }
 
     .slide {

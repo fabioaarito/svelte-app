@@ -29,44 +29,141 @@
       title="{$_('slider.1.title')}"
       slides={[
         {
-          src: "images/01_details_matter.jpg",
+          src: "images/HSCo_Mag_1.png",
           type: "image"
         },
         {
-          src:"images/06_shot_so_fresh.jpg",
+          src:"images/HSCo_Mag_2.png",
           type: "image"
         },
         {
-          src:"images/03_back_in_stock.jpg",
+          src:"images/HSCo_Mag_3.png",
           type: "image"
         },
         {
-          src:"images/04_lay_the_table-04.jpg",
+          src:"images/HSCo_Mag_4.png",
           type: "image"
         },
         {
-          src:"images/05_come_together-02.jpg",
+          src:"images/HSCo_Mag_5.png",
           type: "image"
         },
         {
-          src: "videos/video7.mp4",
-          type: "video"
+          src: "images/HSCo_Mag_6.png",
+          type: "image"
         },
         {
-          src: "The body sats what words cannot- vulnerable, free and quitely powerful.  Our creative direction counterbalances traditional beauty ideals and removes the male gaze to introduce a woman's body in a new and real context. HIRRS is designed for a woman's movement.",
+          src: "Magazines *♡* also a great medium to reposition a brand. We created a tool to build a community and generate lasting ties with creatives & travelers.Vol 1: Islands — a theme explored geographically, and metaphorically. From the launch party at Echo Park Island to a 1 800 number connecting you to the sounds of island life, every detail was considered.",
           type: "text",
-          title: "Heading file",
+          title: "Creating a Travel Magazine",
           fontSize: "54px",
-          color: "#CBD0BA"
+          color: "#4E151D",
+          backgroundColor: "#C3862C"
         },
         {
-          src: "Brand Audit & Campaign Strategy — Review of all the photo ocntent on digital channels to establish a new strategy 2020 Campaign Shoot —  Creative Direction Pre-production & On Set Direction Ecomm Direction",
+          src: "360 Content Strategy — We took on the project’s full scope from editorial lineups, branded Google docs and social media meta accounts to commissioning original content. Working with the SB network was key when building Hershel’s global community and content. Brand Positioning, Creative Direction, Production, Theme Development, Contributor Outreach, Pagination & Flatplan, Art Direction, Editorial Design, Print Management and Distribution Strategy.",
           type: "text",
-          title: "Heading file",
+          title: "Scope",
+          font: "roc-grotesk, sans-serif",
+          fontSize: "36px",
+          color: "#E2EE75",
+          backgroundColor: "#C3862C"
+        }
+      ]}
+    />
+    <ParallaxSlider
+      title="{$_('slider.1.title')}"
+      slides={[
+        {
+          src: "images/OD_1.png",
+          type: "image"
+        },
+        {
+          src:"images/OD_2.png",
+          type: "image"
+        },
+        {
+          src:"images/OD_3.png",
+          type: "image"
+        },
+        {
+          src:"images/OD_4.png",
+          type: "image"
+        },
+        {
+          src:"images/OD_5.png",
+          type: "image"
+        },
+        {
+          src: "images/OD_6.png",
+          type: "image"
+        },
+        {
+          src: "images/OD_7.png",
+          type: "image"
+        },
+        {
+          src: "Working out of the Accra studio & residence, we were immersed in Osei Duro ‘s process day-to-day. Via workshops we dove deep  into the brand, collecting  insights to inform the brand’s expressions — through photography, casting, styling, in their tone and content. These images are from their 2019 campaign, shot on location with emerging local talent.",
+          type: "text",
+          title: "Brand Platform & Campaign Strategy",
+          fontSize: "54px",
+          color: "#E1D8CA",
+          backgroundColor: "#290B15"
+        },
+        {
+          src: "Deep Dive & Immersion — Factory visits, textile printshop visits, and day-to-day operations Brand Audit & Strategy — Review of all their content to establish a new strategy, Brand Therapy™ workshops & new brand platform 2019 Campaign Shoots — Creative Direction Pre-production & On Set Direction Campaigns on location LookBook Direction.",
+          type: "text",
+          title: "Scope",
           font: "roc-grotesk, sans-serif",
           fontSize: "36px",
           color: "#E2EE75",
           backgroundColor: "#290B15"
+        }
+      ]}
+    />
+    <ParallaxSlider
+      title="{$_('slider.1.title')}"
+      slides={[
+        {
+          src: "images/Fable_1.png",
+          type: "image"
+        },
+        {
+          src:"images/Fable_2.png",
+          type: "image"
+        },
+        {
+          src:"images/Fable_3.png",
+          type: "image"
+        },
+        {
+          src:"images/Fable_4.png",
+          type: "image"
+        },
+        {
+          src: "images/Fable_5.png",
+          type: "image"
+        },
+        {
+          src: "videos/Fable_SuperBonjour.mp4",
+          type: "video"
+        },
+        {
+          src: "Magazines *♡* also a great medium to reposition a brand. We created a tool to build a community and generate lasting ties with creatives & travelers.Vol 1: Islands — a theme explored geographically, and metaphorically. From the launch party at Echo Park Island to a 1 800 number connecting you to the sounds of island life, every detail was considered.",
+          type: "text",
+          title: "Creating a Travel Magazine",
+          fontSize: "54px",
+          color: "#4E151D",
+          backgroundColor: "#C3862C"
+        },
+        {
+          src: "360 Content Strategy — We took on the project’s full scope from editorial lineups, branded Google docs and social media meta accounts to commissioning original content. Working with the SB network was key when building Hershel’s global community and content. Brand Positioning, Creative Direction, Production, Theme Development, Contributor Outreach, Pagination & Flatplan, Art Direction, Editorial Design, Print Management and Distribution Strategy.",
+          type: "text",
+          title: "Scope",
+          font: "roc-grotesk, sans-serif",
+          fontSize: "36px",
+          color: "#E2EE75",
+          backgroundColor: "#C3862C"
         }
       ]}
     />
@@ -434,7 +531,7 @@
     height: 39px;
     padding: 33px;
     cursor: pointer;
-    margin-top: 35px;
+    margin-top: 30px;
     margin-right: 23px;
   }
 

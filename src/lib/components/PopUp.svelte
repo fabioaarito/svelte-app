@@ -175,8 +175,8 @@
     position: absolute;
     right: -15px;
     width: 64px;
-    height: 39px;
-    padding: 70px;
+    height: 23px;
+    padding: 60px;
     cursor: pointer;
     z-index: 4;
   }
@@ -193,11 +193,13 @@
     font-weight: 100;
     font-size: 18px;
     color: #E2EE75;
+    margin-bottom: 2px;
+    margin-left: -20px;
   }
   
   .dialog-center {
     position: absolute;
-    top: 110%;
+    top: 105%;
     left: 55%;
     transform: translate(-50%, -50%);
     width: 350px;
@@ -205,7 +207,7 @@
 
   .left-text {
     font-size: 30px;
-    line-height: 60px;
+    line-height: 39px;
   }
 
 .right.modal-section-content {
@@ -232,9 +234,9 @@
 
 .image-logo {
     position: absolute;
-    left: 48px;
-    top: 22px;
-    width: 177px;
+    left: 24px;
+    top: 30px;
+    width: 117px;
     z-index: 1;
   }
   .bonjour-button {
@@ -242,8 +244,8 @@
     writing-mode: vertical-rl;
     text-orientation: sideways;
     position: absolute;
-    right: 55px;
-    top: 50vh;
+    right: 40px;
+    top: 25vh;
     color:#1900FF;
     padding: 10px;
     border-radius: 15px;
@@ -290,8 +292,8 @@
   .bonjour-button.close {
     background-color: #1F0EDF;
     color:  #F86C01;
-    top: 200px;
-    right: 40px;
+    top: 70px;
+    right: 4px;
   }
     @media screen and (max-width: 600px) {
     .modal-section {
@@ -316,6 +318,7 @@
     }
     .modal-section-content p {
       position: relative;
+      margin-left: -20px;
     }
     .bonjour-dialog {
       width: 70vw;
